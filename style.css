@@ -1,0 +1,70 @@
+*{
+    background-color: rgb(22, 22, 22);
+}
+
+.cabecalho{
+    left: 0;
+    right: 0;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 45px;
+    background-color: rgb(43, 43, 43);
+    position:sticky;
+    top: 0%;
+    border: solid;
+    border-color: aqua;
+}
+
+.destaque{
+color: aqua;
+font-size: 20px;
+text-align: center;
+border:1px solid;
+color: aqua;
+border-radius: 5px;
+padding: 20px;
+display: block;
+}
+
+.mostrardestaque{
+    width: 100px;
+    text-align: center;
+    background-color: black;
+    border: solid;
+    border-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    display: block;
+}
+
+h2{
+    left: 0;
+    right: 0;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+
+.lista{
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.lista > li{
+    padding: 20px;
+    margin-top: 25px;
+    border:solid;
+    border-radius:5px;
+    border-color: aqua;
+    text-align: center;
+    display: inline;
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
